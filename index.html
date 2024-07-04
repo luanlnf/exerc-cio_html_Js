@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Html</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Numérico</h1>
+        <form id="numeric-form">
+            <input type="number" id="tipe-a" placeholder="Numero A" required />
+            <input type="number" id="tipe-b" placeholder="Numero B" required />
+            <button type="submit">Enviar</button>
+            <p id="error-message" class="error-message" style="display:none;">O número B deve ser maior que o número A.</p>
+            <p id="success-message" class="success-message" style="display:none;">Formulário enviado com sucesso!</p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
